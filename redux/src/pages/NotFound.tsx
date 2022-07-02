@@ -1,9 +1,9 @@
 import { FC } from 'react'
 
-export const Home: FC = () => {
+export const NotFound: FC = () => {
   return (
     <div>
-      <h1>redux-toolkit</h1>
+      <h1>NotFound</h1>
     </div>
   )
 }

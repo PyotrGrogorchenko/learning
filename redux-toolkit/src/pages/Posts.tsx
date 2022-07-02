@@ -1,7 +1,7 @@
 import { Post } from '@src/models/Post'
 import { postApi } from '@src/servises/postService'
 import { FC, useCallback, useEffect, useState } from 'react'
-import { PostItem } from './PostItem'
+import { PostItem } from '../components/PostItem'
 
 export const Posts: FC = () => {
   const [limit, setLimit] = useState(20)

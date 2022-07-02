@@ -1,6 +1,6 @@
 {
     "parserOptions": {
-        "project": "./redux-toolkit/tsconfig.eslint.json"
+        "project": "./redux/tsconfig.eslint.json"
     },    
     "env": {
         "browser": true,
