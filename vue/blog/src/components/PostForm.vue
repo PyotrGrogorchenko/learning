@@ -3,12 +3,14 @@
     <h4>Название поста</h4>
     <input-ui
       v-model="post.title"
+      type='text'
       placeholder="Название"
-    >
+    />
     <input-ui
       v-model="post.body"
+      type='text'
       placeholder="Описание"
-    >
+    />
     <button-ui
       @click="createPost"
     >
@@ -18,9 +20,7 @@
 </template>
 
 <script>
-import InputUi from './UI/InputUi.vue'
 export default {
-  components: { InputUi },
   data () {
     return {
       post: {
