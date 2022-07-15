@@ -3,6 +3,8 @@
     <div @click="$router.push('/')">Vue 3</div>
     <div class="navbar__btns">
       <button-ui @click="$router.push('/posts')">Posts</button-ui>
+      <button-ui @click="$router.push('/posts-store')" style="margin-left: 20px">Posts-store</button-ui>
+      <button-ui @click="$router.push('/posts-composition')" style="margin-left: 20px">Posts-composition</button-ui>
       <button-ui @click="$router.push('/about')" style="margin-left: 20px">About</button-ui>
     </div>
   </div>
